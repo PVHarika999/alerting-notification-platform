@@ -35,3 +35,13 @@ A comprehensive alerting and notification system built with Flask, SQLAlchemy, a
 ### Quick Start
 
 1. **Clone and Setup**
+   git clone https://github.com/PVHarika999/alerting-notification-platform.git
+cd alerting-notification-platform
+2. **Install dependencies**
+pip install -r requirements.txt
+3. **Run setup script**
+python scripts/setup.py
+4. **Start the application**
+python app.py
+5. **Verify installation**
+curl http://127.0.0.1:5000/health
