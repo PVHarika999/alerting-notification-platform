@@ -50,4 +50,7 @@ curl http://127.0.0.1:5000/health<br>
 curl http://127.0.0.1:5000/api/analytics/dashboard<br>
 <img width="339" height="286" alt="Image" src="https://github.com/user-attachments/assets/aae4bc73-170a-446d-bae0-a330e80c9aeb" /><br>
 
-curl http://127.0.0.1:5000/api/user/alerts?user_id=1
+curl http://127.0.0.1:5000/api/user/alerts?user_id=1<br>
+<img width="468" height="491" alt="Image" src="https://github.com/user-attachments/assets/be8bdc4d-c9cf-44b8-9739-26ec421bcff9" /><br>
+
+curl http://127.0.0.1:5000/api/admin/alerts <br>
