@@ -94,6 +94,7 @@ GET http://127.0.0.1:5000//api/admin/alerts/1/analytics <br>
 
 POST http://127.0.0.1:5000//api/admin/alerts/1/archive<br>
 <img width="436" height="283" alt="Image" src="https://github.com/user-attachments/assets/d1e3f924-ce52-4ced-94f5-7fff50a8f68a" /><br>
+
 ---
 
 ### **User Endpoints (4 Tests)**
@@ -111,6 +112,9 @@ POST http://127.0.0.1:5000/api/user/alerts/1/snooze <br>
 <img width="388" height="340" alt="Image" src="https://github.com/user-attachments/assets/98e7ba11-d72b-405d-99af-258d83a270bd" /> <br>
 
 #### **10. Get Snoozed Alerts History**
+GET http://127.0.0.1:5000//api/user/alerts/snoozed?user_id=2
+<img width="519" height="315" alt="Image" src="https://github.com/user-attachments/assets/2cd8a30b-1919-4569-a673-45beb4134ad8" />
+
 
 ---
 
