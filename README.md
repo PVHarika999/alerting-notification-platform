@@ -43,8 +43,8 @@ pip install -r requirements.txt
 python scripts/setup.py
 4. **Start the application**
 python app.py
-5. **Verify installation**
-curl http://127.0.0.1:5000/health
+5. **Verify installation**<br>
+curl http://127.0.0.1:5000/health<br>
 <img width="285" height="185" alt="Image" src="https://github.com/user-attachments/assets/5f944235-046b-472f-b8fc-ea2921e224f9" /><br>
 
 curl http://127.0.0.1:5000/api/analytics/dashboard<br>
