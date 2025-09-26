@@ -86,7 +86,9 @@ GET http://127.0.0.1:5000/api/admin/alerts/1<br>
 <img width="438" height="482" alt="Image" src="https://github.com/user-attachments/assets/dbd191b8-9d27-48b6-8d6f-930528a8962f" />
 
 #### **5. Get Alert Analytics**
-
+GET http://127.0.0.1:5000//api/admin/alerts/1/analytics <br>
+<img width="367" height="312" alt="Image" src="https://github.com/user-attachments/assets/3158529b-9c9b-44b4-8f40-3d0f1f062a75" />
+/><br>
 #### **6. Archive Alert**
 
 ---
