@@ -1,4 +1,4 @@
-# Alerting & Notification Platform
+<img width="417" height="480" alt="image" src="https://github.com/user-attachments/assets/51fe3778-ac20-402f-86ef-0902a35d2a62" /># Alerting & Notification Platform
 
 A comprehensive alerting and notification system built with Flask, SQLAlchemy, and APScheduler that allows administrators to create and manage alerts while providing end users with personalized notification experiences.
 
@@ -99,6 +99,7 @@ POST http://127.0.0.1:5000//api/admin/alerts/1/archive<br>
 ### **User Endpoints (4 Tests)**
 
 #### **7. Get User Alerts**
+
 
 #### **8. Mark Alert as Read**
 
