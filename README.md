@@ -46,4 +46,8 @@ python app.py
 5. **Verify installation**
 curl http://127.0.0.1:5000/health
 <img width="285" height="185" alt="Image" src="https://github.com/user-attachments/assets/5f944235-046b-472f-b8fc-ea2921e224f9" />
-http://127.0.0.1:5000/api/analytics/dashboard
+
+curl http://127.0.0.1:5000/api/analytics/dashboard
+<img width="339" height="286" alt="Image" src="https://github.com/user-attachments/assets/aae4bc73-170a-446d-bae0-a330e80c9aeb" />
+
+curl http://127.0.0.1:5000/api/user/alerts?user_id=1
