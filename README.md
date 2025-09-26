@@ -122,6 +122,9 @@ GET http://127.0.0.1:5000//api/user/alerts/snoozed?user_id=2
 
 #### **11. System Dashboard Analytics**
 
+GET http://127.0.0.1:5000/api/analytics/dashboard
+<img width="522" height="372" alt="Image" src="https://github.com/user-attachments/assets/70955c6d-a6c8-4f6b-97d3-99d35cf366aa" />
+
 ---
 
 ### **Bonus: Manual Reminder Trigger**
