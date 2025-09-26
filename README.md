@@ -77,5 +77,37 @@ POST http://127.0.0.1:5000/api/admin/alerts <br>
 
 <img width="672" height="494" alt="Image" src="https://github.com/user-attachments/assets/f1bde086-b670-4637-a0ac-1a489386cdd1" /><br>
 
-GET http://127.0.0.1:5000/api/admin/alerts?admin_id=1
-GET 
+#### **3. List Admin Alerts**
+
+GET http://127.0.0.1:5000//api/admin/alerts/1 <br>
+<img width="438" height="482" alt="Image" src="https://github.com/user-attachments/assets/dbd191b8-9d27-48b6-8d6f-930528a8962f" />
+
+#### **4. Update Alert**
+
+#### **5. Get Alert Analytics**
+
+#### **6. Archive Alert**
+
+---
+
+### **User Endpoints (4 Tests)**
+
+#### **7. Get User Alerts**
+
+#### **8. Mark Alert as Read**
+
+#### **9. Snooze Alert**
+
+#### **10. Get Snoozed Alerts History**
+
+---
+
+### **Analytics Endpoints (1 Test)**
+
+#### **11. System Dashboard Analytics**
+
+---
+
+### **Bonus: Manual Reminder Trigger**
+
+#### **12. Trigger Reminders (Testing)**
