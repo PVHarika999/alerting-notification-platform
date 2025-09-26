@@ -107,6 +107,8 @@ POST http://127.0.0.1:5000//api/user/alerts/1/read
 <img width="413" height="286" alt="Image" src="https://github.com/user-attachments/assets/baf5290f-2e50-40d6-b68a-bafb4ca138df" /><br>
 
 #### **9. Snooze Alert**
+POST http://127.0.0.1:5000/api/user/alerts/1/snooze <br>
+<img width="388" height="340" alt="Image" src="https://github.com/user-attachments/assets/98e7ba11-d72b-405d-99af-258d83a270bd" /> <br>
 
 #### **10. Get Snoozed Alerts History**
 
