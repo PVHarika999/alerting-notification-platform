@@ -103,6 +103,8 @@ GET http://127.0.0.1:5000/api/user/alerts?user_id=2 <br>
 <img width="417" height="480" alt="Image" src="https://github.com/user-attachments/assets/92f46d27-a58c-4b3f-8bb8-b17058e0aab9" /><br>
 
 #### **8. Mark Alert as Read**
+POST http://127.0.0.1:5000//api/user/alerts/1/read
+<img width="413" height="286" alt="Image" src="https://github.com/user-attachments/assets/baf5290f-2e50-40d6-b68a-bafb4ca138df" /><br>
 
 #### **9. Snooze Alert**
 
