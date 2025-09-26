@@ -54,3 +54,4 @@ curl http://127.0.0.1:5000/api/user/alerts?user_id=1<br>
 <img width="468" height="491" alt="Image" src="https://github.com/user-attachments/assets/be8bdc4d-c9cf-44b8-9739-26ec421bcff9" /><br>
 
 curl http://127.0.0.1:5000/api/admin/alerts <br>
+<img width="466" height="539" alt="Image" src="https://github.com/user-attachments/assets/100f6338-0df4-4bfa-af88-3ebebb3b5ac1" /><br>
