@@ -1,4 +1,3 @@
-<img width="417" height="480" alt="image" src="https://github.com/user-attachments/assets/51fe3778-ac20-402f-86ef-0902a35d2a62" /># Alerting & Notification Platform
 
 A comprehensive alerting and notification system built with Flask, SQLAlchemy, and APScheduler that allows administrators to create and manage alerts while providing end users with personalized notification experiences.
 
@@ -130,3 +129,5 @@ GET http://127.0.0.1:5000/api/analytics/dashboard
 ### **Bonus: Manual Reminder Trigger**
 
 #### **12. Trigger Reminders (Testing)**
+POST http://127.0.0.1:5000/api/trigger-reminders
+<img width="516" height="283" alt="Image" src="https://github.com/user-attachments/assets/f919e015-ed7e-4478-8779-78212019d369" />
