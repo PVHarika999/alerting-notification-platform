@@ -56,8 +56,8 @@ python app.py
 ## **Testing All 11 Endpoints**
 I have used Postman
 ### **1. System Health Check**
-http://127.0.0.1:5000/health<br>
-<img width="285" height="185" alt="Image" src="https://github.com/user-attachments/assets/5f944235-046b-472f-b8fc-ea2921e224f9" /><br>
+GET http://127.0.0.1:5000/health<br>
+<img width="649" height="312" alt="Image" src="https://github.com/user-attachments/assets/43991c9e-0e10-447d-a70f-35b452738bf5" />
 
 ---
 
@@ -75,10 +75,106 @@ POST http://127.0.0.1:5000/api/admin/alerts <br>
 "expiry_time": "2025-09-28T01:00:00"
 }
 
-<img width="466" height="539" alt="Image" src="https://github.com/user-attachments/assets/100f6338-0df4-4bfa-af88-3ebebb3b5ac1" /><br>
+<img width="672" height="494" alt="Image" src="https://github.com/user-attachments/assets/f1bde086-b670-4637-a0ac-1a489386cdd1" /><br>
 
-curl http://127.0.0.1:5000/api/analytics/dashboard<br>
-<img width="339" height="286" alt="Image" src="https://github.com/user-attachments/assets/aae4bc73-170a-446d-bae0-a330e80c9aeb" /><br>
+GET http://127.0.0.1:5000/api/admin/alerts?admin_id=1
+"alerts": [
+        {
+            "created_at": "2025-09-26T08:50:10.498560",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-09-28T01:00:00",
+            "id": 6,
+            "is_active": true,
+            "message": "Scheduled maintenance from 11 PM to 1 AM. Please save your work.",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "warning",
+            "start_time": "2025-09-26T08:50:10.497324",
+            "target_audience": "[]",
+            "title": "System Maintenance Tonight",
+            "visibility_type": "organization"
+        },
+        {
+            "created_at": "2025-09-26T08:44:17.133594",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-09-28T01:00:00",
+            "id": 5,
+            "is_active": true,
+            "message": "Scheduled maintenance from 11 PM to 1 AM. Please save your work.",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "warning",
+            "start_time": "2025-09-26T08:44:17.092902",
+            "target_audience": "[]",
+            "title": "System Maintenance Tonight",
+            "visibility_type": "organization"
+        },
+        {
+            "created_at": "2025-09-26T07:54:01.257614",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-09-26T13:54:01.256805",
+            "id": 4,
+            "is_active": true,
+            "message": "Production server is experiencing issues. All hands on deck!",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "critical",
+            "start_time": "2025-09-26T07:54:01.257614",
+            "target_audience": "[1]",
+            "title": "Critical: Server Down",
+            "visibility_type": "team"
+        },
+        {
+            "created_at": "2025-09-26T07:54:01.257612",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-09-27T07:54:01.256779",
+            "id": 3,
+            "is_active": true,
+            "message": "Weekly engineering standup at 10 AM tomorrow.",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "info",
+            "start_time": "2025-09-26T07:54:01.257611",
+            "target_audience": "[1]",
+            "title": "Engineering Team Meeting",
+            "visibility_type": "team"
+        },
+        {
+            "created_at": "2025-09-26T07:54:01.257610",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-10-03T07:54:01.256357",
+            "id": 2,
+            "is_active": true,
+            "message": "Please review the updated security policy in the company handbook.",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "info",
+            "start_time": "2025-09-26T07:54:01.257609",
+            "target_audience": "[]",
+            "title": "New Security Policy",
+            "visibility_type": "organization"
+        },
+        {
+            "created_at": "2025-09-26T07:54:01.257607",
+            "created_by": 1,
+            "delivery_type": "in_app",
+            "expiry_time": "2025-09-27T07:54:01.256311",
+            "id": 1,
+            "is_active": true,
+            "message": "The system will be down for maintenance from 11 PM to 1 AM.",
+            "reminder_enabled": true,
+            "reminder_frequency_hours": 2,
+            "severity": "warning",
+            "start_time": "2025-09-26T07:54:01.257605",
+            "target_audience": "[]",
+            "title": "System Maintenance Tonight",
+            "visibility_type": "organization"
+        }
+    ]
+}
 
-curl http://127.0.0.1:5000/api/user/alerts?user_id=1<br>
-<img width="468" height="491" alt="Image" src="https://github.com/user-attachments/assets/be8bdc4d-c9cf-44b8-9739-26ec421bcff9" /><br>
