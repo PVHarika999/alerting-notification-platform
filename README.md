@@ -89,8 +89,11 @@ GET http://127.0.0.1:5000/api/admin/alerts/1<br>
 GET http://127.0.0.1:5000//api/admin/alerts/1/analytics <br>
 <img width="367" height="312" alt="Image" src="https://github.com/user-attachments/assets/3158529b-9c9b-44b4-8f40-3d0f1f062a75" />
 /><br>
-#### **6. Archive Alert**
+<img width="436" height="283" alt="Image" src="https://github.com/user-attachments/assets/d1e3f924-ce52-4ced-94f5-7fff50a8f68a" />
+#### **6. Archive Alert**<br>
 
+POST http://127.0.0.1:5000//api/admin/alerts/1/archive<br>
+<img width="436" height="283" alt="Image" src="https://github.com/user-attachments/assets/d1e3f924-ce52-4ced-94f5-7fff50a8f68a" /><br>
 ---
 
 ### **User Endpoints (4 Tests)**
