@@ -78,11 +78,11 @@ POST http://127.0.0.1:5000/api/admin/alerts <br>
 <img width="672" height="494" alt="Image" src="https://github.com/user-attachments/assets/f1bde086-b670-4637-a0ac-1a489386cdd1" /><br>
 
 #### **3. List Admin Alerts**
-
-GET http://127.0.0.1:5000//api/admin/alerts/1 <br>
-<img width="438" height="482" alt="Image" src="https://github.com/user-attachments/assets/dbd191b8-9d27-48b6-8d6f-930528a8962f" />
+GET http://127.0.0.1:5000//api/admin/alerts?admin_id=1<br>
 
 #### **4. Update Alert**
+GET http://127.0.0.1:5000/api/admin/alerts/1<br>
+<img width="438" height="482" alt="Image" src="https://github.com/user-attachments/assets/dbd191b8-9d27-48b6-8d6f-930528a8962f" />
 
 #### **5. Get Alert Analytics**
 
